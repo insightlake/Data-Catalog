@@ -1,4 +1,4 @@
-<img style="width:100%;" src="datacatalog.jpeg">
+<img style="width:100%;" src="images/datacatalog.jpeg">
 
 What is InsightLake Data Catalog?
 -----------
