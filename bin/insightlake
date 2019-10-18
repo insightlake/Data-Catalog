@@ -53,3 +53,10 @@ nohup java -jar $EDP_HOME/libs/edp-api-data-0.0.1-SNAPSHOT.jar com.insightlake.e
 echo "Starting UI"
 nohup java -jar $EDP_HOME/libs/edp-ui-0.0.1-SNAPSHOT.jar com.insightlake.edp.ui.Application --spring.config.name=api-ui,jdbc --spring.config.location=file:///$EDP_HOME/conf/api-ui.properties,file:///$EDP_HOME/conf/jdbc.properties >/dev/null 2>&1 &
 
+echo "Starting catalog apis"
+nohup java -jar $EDP_HOME/libs/edp-catalog-0.0.1-SNAPSHOT.jar &
+
+echo "Starting catalog UI"
+nohup java -jar $EDP_HOME/libs/edp-catalog-ui-1.0.jar
+
+
