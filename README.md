@@ -65,6 +65,95 @@ Builds regulated and governed data assets
 Conclusion
 Companies can leverage information catalog to setup a data driven process, optimize information flow and usage and maximize business value. Information catalog will allow various stakeholders to collaborate more easily and bring value from data faster.
 
+## Catalog
+
+* Article View
+  
+ <img style="width:100%;" src="images/catalog-tab/article-view.png">
+ 
+ * Location View
+ 
+<img style="width:100%;" src="images/catalog-tab/data-catalog-location.png">
+ 
+ * Store view
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store.png">
+ 
+ * Data Store Columns
+  
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-columns.png">
+
+ * Data Store Samples
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-samples.png">
+
+ * Data Store Filters
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-filters.png">
+
+ * Data Store Joins
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-joins.png">
+
+ * Data Store Lineage
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-lineage.png">
+
+ * Data Store Queries
+ 
+ <img style="width:100%;" src="images/catalog-tab/catalog-store-query.png">
+ 
+ ## Wiki
+  
+  * Article View
+ 
+ <img style="width:100%;" src="images/article(wiki)-tab/article-view.png">
+ 
+  * Add Article 
+ 
+ <img style="width:100%;" src="images/article(wiki)-tab/add-article.png">
+ 
+ * Article Tables
+  
+ <img style="width:100%;" src="images/article(wiki)-tab/article-table.png">
+  
+ * Article Queries
+  
+ <img style="width:100%;" src="images/article(wiki)-tab/article-query.png">
+  
+ * Article Reports
+  
+ <img style="width:100%;" src="images/article(wiki)-tab/article-report.png">
+ 
+  ## Data Location
+ 
+ <img style="width:100%;" src="images/data-location/data-location.png">
+ 
+   ## Data Store
+ 
+ <img style="width:100%;" src="images/data-store-tab/data-store-page.png">
+ 
+   ## Explore Data 
+   
+  * Data View
+  
+ <img style="width:100%;" src="images/data-tab/data-page.png">
+ 
+  * Pivot Data View
+  
+ <img style="width:100%;" src="images/data-tab/pivot-data.png">
+ 
+ ## User
+ 
+ * User Details
+ 
+  <img style="width:100%;" src="images/user-tab/user-details.png">
+ 
+ * Group Details
+ 
+ <img style="width:100%;" src="images/user-tab/group-details.png">
+ 
+
 To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
 
 Installation
