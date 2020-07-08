@@ -1,0 +1,18 @@
+version: "2.0"
+
+services:
+  catlog-backend-service:
+    build:
+      context: ../libs
+      dockerfile: ./catalogbacked
+    ports:
+    - 9494:9494
+
+  catlog-ui-service:
+    build:
+      context: ../libs
+      dockerfile: ./catalogui
+    ports:
+    - 8080:8080
+    environment:
+    - ADDRESS_SERVICE_BASE_PATH=http://catlog-ui-service:8085/address-service
