@@ -142,7 +142,7 @@ Companies can leverage information catalog to setup a data driven process, optim
   * Pivot Data View
   
  <img style="width:100%;" src="images/data-tab/pivot-data.png">
- 
+ you
  ## User
  
  * User Details
@@ -164,6 +164,14 @@ Installation
 * Change configuration in /conf folder to set different ports
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
+Installation using docker 
+------
+* Download or clone the repository. 
+* cd docker
+* docker-compose -f docker-compose.yaml -up 
+
+
+
 
 License
 ------
@@ -178,3 +186,7 @@ Slack Channel
 Twitter
 Facebook
 Email: contact@insightlake.com
+
+
+
+
