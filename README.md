@@ -142,7 +142,7 @@ Companies can leverage information catalog to setup a data driven process, optim
   * Pivot Data View
   
  <img style="width:100%;" src="images/data-tab/pivot-data.png">
- you
+ 
  ## User
  
  * User Details
