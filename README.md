@@ -69,89 +69,106 @@ Companies can leverage information catalog to setup a data driven process, optim
 
 * Article View
   
- <img style="width:100%;" src="images/catalog-tab/article-view.png">
+ <img style="width:100%;" src="images/article-view.png">
  
  * Location View
  
-<img style="width:100%;" src="images/catalog-tab/data-catalog-location.png">
+<img style="width:100%;" src="images/location-view.png">
  
  * Store view
  
- <img style="width:100%;" src="images/catalog-tab/catalog-store.png">
+ <img style="width:100%;" src="images/store-overview.png">
  
  * Data Store Columns
   
- <img style="width:100%;" src="images/catalog-tab/catalog-store-columns.png">
+ <img style="width:100%;" src="images/store-columns.png">
 
  * Data Store Samples
  
- <img style="width:100%;" src="images/catalog-tab/catalog-store-samples.png">
-
- * Data Store Filters
- 
- <img style="width:100%;" src="images/catalog-tab/catalog-store-filters.png">
+ <img style="width:100%;" src="images/store-sample.png">
 
  * Data Store Joins
  
- <img style="width:100%;" src="images/catalog-tab/catalog-store-joins.png">
+ <img style="width:100%;" src="images/store-joins.png">
 
  * Data Store Lineage
  
- <img style="width:100%;" src="images/catalog-tab/catalog-store-lineage.png">
+ <img style="width:100%;" src="images/store-lineage.png">
 
  * Data Store Queries
  
- <img style="width:100%;" src="images/catalog-tab/catalog-store-query.png">
+ <img style="width:100%;" src="images/store-query.png">
+ 
+ * Data Store Comments
+ 
+ <img style="width:100%;" src="images/store-comments.png">
+ 
+ * Data Store Schema
+ 
+ <img style="width:100%;" src="images/store-schema.png">
+ 
  
  ## Wiki
   
-  * Article View
+  * Wiki View
  
- <img style="width:100%;" src="images/article(wiki)-tab/article-view.png">
+ <img style="width:100%;" src="images/wiki.png">
  
-  * Add Article 
- 
- <img style="width:100%;" src="images/article(wiki)-tab/add-article.png">
- 
- * Article Tables
+ * Wiki Summary
   
- <img style="width:100%;" src="images/article(wiki)-tab/article-table.png">
+ <img style="width:100%;" src="images/wiki-summary.png">
+
+ * Wiki Tables
   
- * Article Queries
+ <img style="width:100%;" src="images/wiki-table.png">
   
- <img style="width:100%;" src="images/article(wiki)-tab/article-query.png">
+ * Wiki Queries
   
- * Article Reports
+ <img style="width:100%;" src="images/wiki-queries.png">
   
- <img style="width:100%;" src="images/article(wiki)-tab/article-report.png">
+ * Wiki Reports
+  
+ <img style="width:100%;" src="images/wiki-reports.png">
  
   ## Data Location
  
- <img style="width:100%;" src="images/data-location/data-location.png">
+ <img style="width:100%;" src="images/data-location.png">
  
    ## Data Store
  
- <img style="width:100%;" src="images/data-store-tab/data-store-page.png">
+ <img style="width:100%;" src="images/data-store.png">
  
    ## Explore Data 
    
   * Data View
   
- <img style="width:100%;" src="images/data-tab/data-page.png">
+ <img style="width:100%;" src="images/data-explore.png">
+ 
+  * Profile Data View
+  
+ <img style="width:100%;" src="images/explore-profile-data.png">
  
   * Pivot Data View
   
- <img style="width:100%;" src="images/data-tab/pivot-data.png">
+ <img style="width:100%;" src="images/explore-pivotTable.png">
  
- ## User
+ * Explore Image View
+  
+ <img style="width:100%;" src="images/explore-image-view.png">
+ 
+ * Explore PDF View
+  
+ <img style="width:100%;" src="images/explore-pdf-view.png">
+ 
+## Global Search
+
+ <img style="width:100%;" src="images/search-types.png">
+ 
+## User
  
  * User Details
  
-  <img style="width:100%;" src="images/user-tab/user-details.png">
- 
- * Group Details
- 
- <img style="width:100%;" src="images/user-tab/group-details.png">
+  <img style="width:100%;" src="images/user.png">
  
 
 To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
