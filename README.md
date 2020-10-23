@@ -179,7 +179,7 @@ Companies can leverage information catalog to setup a data driven process, optim
   <img style="width:100%;" src="images/user.png">
  
 
-To learn more, check out [http://insightlake.com/dataexplorer.html](http://insightlake.com/dataexplorer.html)
+To learn more, check out [http://www.insightlake.com/data-catalog.html](http://www.insightlake.com/data-catalog.html)
 
 Installation
 ------
