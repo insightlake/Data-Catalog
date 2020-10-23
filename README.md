@@ -160,6 +160,14 @@ Companies can leverage information catalog to setup a data driven process, optim
   
  <img style="width:100%;" src="images/explore-pdf-view.png">
  
+ * Explore Video View
+  
+ <img style="width:100%;" src="images/explore-video-view.png">
+ 
+ * Explore audio View
+  
+ <img style="width:100%;" src="images/explore-audio-view.png">
+ 
 ## Global Search
 
  <img style="width:100%;" src="images/search-types.png">
