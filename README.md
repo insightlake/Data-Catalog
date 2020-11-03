@@ -10,6 +10,8 @@ Companies should setup an automated & curated governed process to build an appro
 
 InsightLake Data Catalog solution unlocks the value of enterprise data lakes by building self service & governed centralized data catalog. It enables business users and data teams to find information easily.
 
+<img style="width:100%;" src="images/catalogpillers.png">
+
 It allows companies to discover & enrich technical or business metadata, automatically annotate or tag data sets, curate and store metadata within data or externally. It also allows easy data exploration, collaboration and business information creation at various levels like domain, store, field or cell.
 
 InsightLake solution leverages machine learning & business curation to automatically catalog data assets in Big data environment with governed process.
@@ -18,6 +20,9 @@ InsightLake solution leverages machine learning & business curation to automatic
 Information catalog provides information about what data is available to business or data users, who owns the data, source of data, linked data sets, semantic meaning of data etc.
 
 Information catalog helps companies to share governed and curated data between various teams and make it more data driven.
+
+## Architecture
+<img style="width:100%;" src="images/arch.png">
 
 ## Catalog Process
 Information catalog process starts with defining enterprise standards around tagging, data domains, business context, data owners and glossary.
@@ -32,11 +37,18 @@ Information catalog process is an iterative process. It establishes business con
 ## Virtual Catalog
 Data catalog solution enables companies to build catalog from various data sources like Relational databases, Hadoop, File systems etc. It indexes data, extracts information and adds a metadata information layer to build a rich information catalog.
 
+## Data Glossary
+Allows business to define business terms and higher level rules.
+<img style="width:100%;" src="images/glossary.png">
+
 ## Discovery
 Data catalog solution allows easy discovery of data. Using intuitive UI an analyst can register data source and discover data sets.
 
 ## Automated Tagging/Annotations
 InsightLake automatically profiles the data and links it with appropriate data domain hierarchies. It also classifies data using various tags. It uses machine learning and semantic topic models to do data classifications.
+
+## Data Lineage
+<img style="width:100%;" src="images/lineage.jpeg">
 
 ## Data Relationships
 Data can come from various sources but some may be linked. InsightLake profiles the data sets and discovers the relationship between them. It shows linked data sets in the search results.
