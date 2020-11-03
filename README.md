@@ -65,45 +65,58 @@ Builds regulated and governed data assets
 Conclusion
 Companies can leverage information catalog to setup a data driven process, optimize information flow and usage and maximize business value. Information catalog will allow various stakeholders to collaborate more easily and bring value from data faster.
 
-## Catalog
+# InsightLake Data Catalog Views
 
-* Article View
+## Global Search
+Search view enables Catalog users to search data sets using specific criterios like table name, database names or any free text.
+Powerful search backend retrieves the results very fast ordered with the right relevance.
+
+ <img style="width:100%;" src="images/search-types.png">
+ 
+### Article/Wiki 
+  Data stewards can create wikis about data sets to provide users more information about the data, historical changes and current usage. Catalog users can also look at sample data, reports etc.
   
  <img style="width:100%;" src="images/article-view.png">
  
- * Location View
+### Data Location
+ Location view enables users to view details about higher level data containers and systems like databases, buckets etc.
  
 <img style="width:100%;" src="images/location-view.png">
  
- * Store view
- 
+### Data Store
+ Store view enables users to view details about data stores like tables, files, topics, indexes etc.
+
  <img style="width:100%;" src="images/store-overview.png">
  
- * Data Store Columns
-  
+### Data Store Fields/Columns
+  Users can see the field level details about a data store.
+
  <img style="width:100%;" src="images/store-columns.png">
 
- * Data Store Samples
- 
+### Sample Data
+ Users can see data samples based on their access permissions.
  <img style="width:100%;" src="images/store-sample.png">
 
- * Data Store Joins
+### Data Query 
+Users can query the data using an intuitive query builder tool, which enables users without SQL knowledge.
+
+### Data Store Joins
  
  <img style="width:100%;" src="images/store-joins.png">
 
- * Data Store Lineage
+### Data Store Lineage
  
  <img style="width:100%;" src="images/store-lineage.png">
 
- * Data Store Queries
+### Data Store Queries
  
  <img style="width:100%;" src="images/store-query.png">
  
- * Data Store Comments
+### Data Store Comments
  
  <img style="width:100%;" src="images/store-comments.png">
  
- * Data Store Schema
+### Data Store Schema
  
  <img style="width:100%;" src="images/store-schema.png">
  
@@ -114,19 +127,19 @@ Companies can leverage information catalog to setup a data driven process, optim
  
  <img style="width:100%;" src="images/wiki.png">
  
- * Wiki Summary
+ ## Wiki Summary
   
  <img style="width:100%;" src="images/wiki-summary.png">
 
- * Wiki Tables
+ ## Wiki Tables
   
  <img style="width:100%;" src="images/wiki-table.png">
   
- * Wiki Queries
+ ## Wiki Queries
   
  <img style="width:100%;" src="images/wiki-queries.png">
   
- * Wiki Reports
+ ## Wiki Reports
   
  <img style="width:100%;" src="images/wiki-reports.png">
  
@@ -138,44 +151,40 @@ Companies can leverage information catalog to setup a data driven process, optim
  
  <img style="width:100%;" src="images/data-store.png">
  
-   ## Explore Data 
-   
-  * Data View
+ ## Explore Data 
+   Data catalog enables data exploration of structured and unstructured data in an intuitive way. Users can view structured data from databases, files (CSV, JSON) or unstructured data like images, videos, audios, documents.
+
+Bellow are some of the examples:
+
+  ### Structured Data
   
  <img style="width:100%;" src="images/data-explore.png">
  
-  * Profile Data View
-  
+ ### Data Profile View
+  Shows data profile, which includes data types and distribution.
+
  <img style="width:100%;" src="images/explore-profile-data.png">
  
-  * Pivot Data View
-  
+ ### Pivot Data View
+  For easier exploration Pivot view is provided
+
  <img style="width:100%;" src="images/explore-pivotTable.png">
  
- * Explore Image View
+ ### Image View
   
  <img style="width:100%;" src="images/explore-image-view.png">
  
- * Explore PDF View
-  
- <img style="width:100%;" src="images/explore-pdf-view.png">
- 
- * Explore Video View
+ ### Video View
   
  <img style="width:100%;" src="images/explore-video-view.png">
  
- * Explore audio View
+ ### Audio View
   
  <img style="width:100%;" src="images/explore-audio-view.png">
  
-## Global Search
-
- <img style="width:100%;" src="images/search-types.png">
  
-## User
- 
- * User Details
- 
+## Users
+ Administrators can manage users, groups and roles to enforce role based access control.
   <img style="width:100%;" src="images/user.png">
  
 
