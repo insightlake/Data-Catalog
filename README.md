@@ -97,59 +97,28 @@ Powerful search backend retrieves the results very fast ordered with the right r
  Users can see data samples based on their access permissions.
  <img style="width:100%;" src="images/store-sample.png">
 
-### Data Query 
-Users can query the data using an intuitive query builder tool, which enables users without SQL knowledge.
-
-### Data Store Joins
+### Joins
  
  <img style="width:100%;" src="images/store-joins.png">
 
-### Data Store Lineage
+### Data Lineage
  
  <img style="width:100%;" src="images/store-lineage.png">
 
-### Data Store Queries
- 
+### Queries
+ Users can query the data using an intuitive query builder tool, which enables users without SQL knowledge.
  <img style="width:100%;" src="images/store-query.png">
  
-### Data Store Comments
- 
+### Comments
+ Comments view provides a collaborative place for users to comment about the data sets. 
  <img style="width:100%;" src="images/store-comments.png">
  
-### Data Store Schema
- 
+### Schema
+ In case of non relational schema oriented data stores like Kafka, users can see the schemas in this view.
  <img style="width:100%;" src="images/store-schema.png">
  
  
- ## Wiki
-  
-  * Wiki View
  
- <img style="width:100%;" src="images/wiki.png">
- 
- ## Wiki Summary
-  
- <img style="width:100%;" src="images/wiki-summary.png">
-
- ## Wiki Tables
-  
- <img style="width:100%;" src="images/wiki-table.png">
-  
- ## Wiki Queries
-  
- <img style="width:100%;" src="images/wiki-queries.png">
-  
- ## Wiki Reports
-  
- <img style="width:100%;" src="images/wiki-reports.png">
- 
-  ## Data Location
- 
- <img style="width:100%;" src="images/data-location.png">
- 
-   ## Data Store
- 
- <img style="width:100%;" src="images/data-store.png">
  
  ## Explore Data 
    Data catalog enables data exploration of structured and unstructured data in an intuitive way. Users can view structured data from databases, files (CSV, JSON) or unstructured data like images, videos, audios, documents.
@@ -187,7 +156,34 @@ Bellow are some of the examples:
  Administrators can manage users, groups and roles to enforce role based access control.
   <img style="width:100%;" src="images/user.png">
  
+## Wiki
+  
+ <img style="width:100%;" src="images/wiki.png">
+ 
+ ## Wiki Summary
+  
+ <img style="width:100%;" src="images/wiki-summary.png">
 
+ ## Wiki Tables
+  
+ <img style="width:100%;" src="images/wiki-table.png">
+  
+ ## Wiki Queries
+  
+ <img style="width:100%;" src="images/wiki-queries.png">
+  
+ ## Wiki Reports
+  
+ <img style="width:100%;" src="images/wiki-reports.png">
+ 
+  ## Data Location
+ 
+ <img style="width:100%;" src="images/data-location.png">
+ 
+   ## Data Store
+ 
+ <img style="width:100%;" src="images/data-store.png">
+ 
 To learn more, check out [http://www.insightlake.com/data-catalog.html](http://www.insightlake.com/data-catalog.html)
 
 Installation
