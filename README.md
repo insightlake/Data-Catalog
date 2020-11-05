@@ -107,7 +107,7 @@ Powerful search backend retrieves the results very fast ordered with the right r
 
 ### Sample Data
  Users can see data samples based on their access permissions.
- <img style="width:100%;" src="images/store-sample.png">
+ <img style="width:100%;" src="images/store-samples.png">
 
 ### Joins
  
@@ -119,7 +119,7 @@ Powerful search backend retrieves the results very fast ordered with the right r
 
 ### Queries
  Users can query the data using an intuitive query builder tool, which enables users without SQL knowledge.
- <img style="width:100%;" src="images/store-query.png">
+ <img style="width:100%;" src="images/store-queries.png">
  
 ### Comments
  Comments view provides a collaborative place for users to comment about the data sets. 
