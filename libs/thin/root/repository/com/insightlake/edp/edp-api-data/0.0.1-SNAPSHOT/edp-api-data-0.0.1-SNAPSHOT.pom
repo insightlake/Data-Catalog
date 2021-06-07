@@ -25,6 +25,7 @@
 		<wrapper.version>1.0.16.RELEASE</wrapper.version>
 	</properties>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -47,17 +48,9 @@
 			<artifactId>edp-api-user</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>com.insightlake.edp</groupId>
-			<artifactId>edp-calls-analytics</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.elasticsearch</groupId>
-					<artifactId>elasticsearch</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.insightlake.edp</groupId> <artifactId>edp-calls-analytics</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> <exclusions> <exclusion> <groupId>org.elasticsearch</groupId> 
+			<artifactId>elasticsearch</artifactId> </exclusion> </exclusions> </dependency> -->
 		<dependency>
 			<groupId>com.vserve.edp</groupId>
 			<artifactId>edp-excel</artifactId>
@@ -74,17 +67,9 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.elasticsearch</groupId>
-			<artifactId>elasticsearch</artifactId>
-			<version>2.0.0</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.google.guava</groupId>
-					<artifactId>guava</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.elasticsearch</groupId> <artifactId>elasticsearch</artifactId> 
+			<version>2.0.0</version> <exclusions> <exclusion> <groupId>com.google.guava</groupId> 
+			<artifactId>guava</artifactId> </exclusion> </exclusions> </dependency> -->
 
 		<dependency>
 			<groupId>com.insightlake.edp</groupId>
@@ -115,11 +100,8 @@
 			<groupId>com.insightlake.edp</groupId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>com.vserve.edp</groupId>
-			<artifactId>edp-git</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.vserve.edp</groupId> <artifactId>edp-git</artifactId> 
+			<version>0.0.1-SNAPSHOT</version> </dependency> -->
 
 
 		<dependency>
@@ -162,8 +144,92 @@
 			<artifactId>elasticsearch</artifactId>
 			<version>7.4.0</version>
 		</dependency>
-	</dependencies>
+		<!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-bigquery -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-bigquery</artifactId>
+			<version>1.116.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.snowflake/snowflake-jdbc -->
+		<dependency>
+			<groupId>net.snowflake</groupId>
+			<artifactId>snowflake-jdbc</artifactId>
+			<version>3.12.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.avro</groupId>
+			<artifactId>avro</artifactId>
+			<version>1.9.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vserve.edp</groupId>
+			<artifactId>edp-gcs</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vserve.edp</groupId>
+			<artifactId>edp-azure</artifactId>
+			<version>1.0</version>
+		</dependency>
+		
+		<!-- get from local repository -->
+		<dependency>
+			<groupId>com.simba</groupId>
+			<artifactId>google-bigquery-jdbc</artifactId>
+			<version>1.1</version>
+			
+		</dependency>
+
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>7.4.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>elasticsearch-rest-client</artifactId>
+			<version>7.4.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.elasticsearch.client/elasticsearch-rest-high-level-client -->
+		<dependency>
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>elasticsearch-rest-high-level-client</artifactId>
+			<version>7.4.2</version>
+		</dependency>
+		<!--  <dependency>
+		     <groupId>com.azure</groupId>
+		     <artifactId>azure-storage-common</artifactId>
+		     <version>12.0.0</version>
+		     <exclusions>
+		     	<exclusion>
+		     		<groupId>io.projectreactor</groupId>
+		     		<artifactId>reactor-core</artifactId>
+		     	</exclusion>
+		     </exclusions>
+		 </dependency>
+	    <dependency>
+		     <groupId>com.azure</groupId>
+		     <artifactId>azure-storage-blob</artifactId>
+		     <version>12.0.0</version>
+	   </dependency> -->
+	  <!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-core -->
+		<dependency>
+		    <groupId>io.projectreactor</groupId>
+		    <artifactId>reactor-core</artifactId>
+		    <version>3.3.8.RELEASE</version>
+		</dependency>
+		<dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>fop</artifactId>
+            <version>2.1</version>
+        </dependency>
+		
 	
+		
+	</dependencies>
+
 	<!-- <build>
 		<plugins>
 			<plugin>
@@ -195,8 +261,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<executions>
 					<execution>
-						Spring Boot Actuator displays build-related information if a META-INF/build-info.properties 
-							file is present
+
 						<goals>
 							<goal>build-info</goal>
 						</goals>
@@ -234,15 +299,9 @@
 			</plugin>
 		</plugins>
 	</build> -->
-	
-	<!-- <build>
-	<plugins>
-		<plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-maven-plugin</artifactId>
-		</plugin>
-	</plugins>
-</build> -->
+
+	<!-- <build> <plugins> <plugin> <groupId>org.springframework.boot</groupId> 
+		<artifactId>spring-boot-maven-plugin</artifactId> </plugin> </plugins> </build> -->
 
 
 </project>
